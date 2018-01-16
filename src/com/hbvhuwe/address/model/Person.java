@@ -35,7 +35,7 @@ public class Person {
     this.street = new SimpleStringProperty("street");
     this.postalCode = new SimpleIntegerProperty(1111);
     this.city = new SimpleStringProperty("city");
-    this.birthday = new SimpleObjectProperty<LocalDate>(LocalDate.of(1970, 1, 1));
+    this.birthday = new SimpleObjectProperty<>(LocalDate.of(1970, 1, 1));
   }
 
   public String getFirstName() {
