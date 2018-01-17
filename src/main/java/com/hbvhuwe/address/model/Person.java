@@ -1,7 +1,6 @@
 package com.hbvhuwe.address.model;
 
 import javafx.beans.property.*;
-import org.jetbrains.annotations.Nullable;
 
 import java.time.LocalDate;
 
@@ -28,7 +27,7 @@ public class Person {
    * @param firstName
    * @param lastName
    */
-  public Person(@Nullable String firstName, @Nullable String lastName) {
+  public Person(String firstName, String lastName) {
     this.firstName = new SimpleStringProperty(firstName);
     this.lastName = new SimpleStringProperty(lastName);
 
