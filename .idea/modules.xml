@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/address.iml" filepath="$PROJECT_DIR$/address.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/address-book.iml" filepath="$PROJECT_DIR$/.idea/modules/address-book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/address-book_main.iml" filepath="$PROJECT_DIR$/.idea/modules/address-book_main.iml" group="address-book" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/address-book_test.iml" filepath="$PROJECT_DIR$/.idea/modules/address-book_test.iml" group="address-book" />
     </modules>
   </component>
 </project>
