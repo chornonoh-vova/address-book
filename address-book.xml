@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persons>
+    <person>
+        <birthday>1970-01-01</birthday>
+        <city>city</city>
+        <firstName>bcdhg</firstName>
+        <lastName>bchd</lastName>
+        <postalCode>1111</postalCode>
+        <street>bchd</street>
+    </person>
+    <person>
+        <birthday>1970-01-01</birthday>
+        <city>iocmjd</city>
+        <firstName>wijs</firstName>
+        <lastName>cndiu</lastName>
+        <postalCode>83928</postalCode>
+        <street>cndiu</street>
+    </person>
+</persons>
