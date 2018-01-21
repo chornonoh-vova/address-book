@@ -1,5 +1,5 @@
 
-# Created by https://www.gitignore.io/api/java,gradle,eclipse,intellij
+# Created by https://www.gitignore.io/api/java,gradle,eclipse,intellij,visualstudiocode
 
 ### Eclipse ###
 
@@ -149,6 +149,14 @@ fabric.properties
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
+
 ### Gradle ###
 .gradle
 **/build/
@@ -166,4 +174,4 @@ gradle-app.setting
 # gradle/wrapper/gradle-wrapper.properties
 
 
-# End of https://www.gitignore.io/api/java,gradle,eclipse,intellij
+# End of https://www.gitignore.io/api/java,gradle,eclipse,intellij,visualstudiocode

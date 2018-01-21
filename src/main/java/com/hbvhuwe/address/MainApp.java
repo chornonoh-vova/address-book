@@ -12,8 +12,11 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
+import javafx.scene.image.*;
 
 import java.io.IOException;
+
+import javax.swing.ImageIcon;
 
 public class MainApp extends Application {
   private Stage primaryStage;
@@ -44,6 +47,8 @@ public class MainApp extends Application {
   public void start(Stage primaryStage) {
     this.primaryStage = primaryStage;
     this.primaryStage.setTitle("AddressApp");
+
+    this.primaryStage.getIcons().add(new Image(ClassLoader.getSystemResource("images/address-book-icon.png").toString()));
 
     initRootLayout();
     

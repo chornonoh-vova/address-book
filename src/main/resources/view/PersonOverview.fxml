@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<AnchorPane prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hbvhuwe.address.view.PersonOverviewController">
+<AnchorPane prefHeight="300.0" prefWidth="600.0" stylesheets="@../styles/light-theme.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hbvhuwe.address.view.PersonOverviewController">
    <children>
       <SplitPane dividerPositions="0.29797979797979796" prefHeight="300.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <items>
@@ -46,34 +46,34 @@
                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                     </rowConstraints>
                      <children>
-                        <Label text="First Name" GridPane.halignment="LEFT" GridPane.valignment="CENTER">
+                        <Label text="First Name" GridPane.halignment="RIGHT" GridPane.valignment="CENTER">
                            <GridPane.margin>
-                              <Insets left="5.0" />
+                              <Insets right="5.0" />
                            </GridPane.margin>
                         </Label>
-                        <Label text="Last Name" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                        <Label text="Last Name" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                            <GridPane.margin>
-                              <Insets left="5.0" />
+                              <Insets right="5.0" />
                            </GridPane.margin>
                         </Label>
-                        <Label text="Street" GridPane.halignment="LEFT" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                        <Label text="Street" GridPane.halignment="RIGHT" GridPane.rowIndex="2" GridPane.valignment="CENTER">
                            <GridPane.margin>
-                              <Insets left="5.0" />
+                              <Insets right="5.0" />
                            </GridPane.margin>
                         </Label>
-                        <Label text="City" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                        <Label text="City" GridPane.halignment="RIGHT" GridPane.rowIndex="3" GridPane.valignment="CENTER">
                            <GridPane.margin>
-                              <Insets left="5.0" />
+                              <Insets right="5.0" />
                            </GridPane.margin>
                         </Label>
-                        <Label text="Postal Code" GridPane.halignment="LEFT" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                        <Label text="Postal Code" GridPane.halignment="RIGHT" GridPane.rowIndex="4" GridPane.valignment="CENTER">
                            <GridPane.margin>
-                              <Insets left="5.0" />
+                              <Insets right="5.0" />
                            </GridPane.margin>
                         </Label>
-                        <Label text="Birthday" GridPane.halignment="LEFT" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+                        <Label text="Birthday" GridPane.halignment="RIGHT" GridPane.rowIndex="5" GridPane.valignment="CENTER">
                            <GridPane.margin>
-                              <Insets left="5.0" />
+                              <Insets right="5.0" />
                            </GridPane.margin>
                         </Label>
                         <Label fx:id="firstNameLabel" text="Label" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.valignment="CENTER">
@@ -102,7 +102,7 @@
                            </GridPane.margin></Label>
                      </children>
                   </GridPane>
-                  <ButtonBar prefHeight="40.0" prefWidth="200.0" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="5.0">
+                  <ButtonBar prefHeight="40.0" prefWidth="200.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0">
                     <buttons>
                         <Button mnemonicParsing="false" onAction="#handleNewPerson" text="New..." />
                         <Button mnemonicParsing="false" onAction="#handleEditPerson" text="Edit..." />
