@@ -5,27 +5,27 @@
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.layout.BorderPane?>
 
-<BorderPane prefHeight="400.0" prefWidth="600.0" stylesheets="@../styles/light-theme.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hbvhuwe.address.view.RootLayoutController">
+<BorderPane prefHeight="400.0" prefWidth="600.0" styleClass="background" stylesheets="@../styles/light-theme.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hbvhuwe.address.view.RootLayoutController">
    <top>
       <MenuBar BorderPane.alignment="CENTER">
         <menus>
           <Menu mnemonicParsing="false" text="File">
             <items>
-              <MenuItem mnemonicParsing="false" text="New" onAction="#handleNew"/>
-              <MenuItem mnemonicParsing="false" text="Open..." onAction="#handleOpen"/>
-              <MenuItem mnemonicParsing="false" text="Save" onAction="#handleSave"/>
-              <MenuItem mnemonicParsing="false" text="Save As.." onAction="#handleSaveAs"/>
-              <MenuItem mnemonicParsing="false" text="Exit" onAction="#handleExit"/>
+              <MenuItem mnemonicParsing="false" onAction="#handleNew" styleClass="menu-item" text="New" />
+              <MenuItem mnemonicParsing="false" onAction="#handleOpen" styleClass="menu-item" text="Open..." />
+              <MenuItem mnemonicParsing="false" onAction="#handleSave" styleClass="menu-item" text="Save" />
+              <MenuItem mnemonicParsing="false" onAction="#handleSaveAs" styleClass="menu-item" text="Save As.." />
+              <MenuItem mnemonicParsing="false" onAction="#handleExit" styleClass="menu-item" text="Exit" />
             </items>
           </Menu>
           <Menu mnemonicParsing="false" text="Edit">
             <items>
-              <MenuItem mnemonicParsing="false" text="Delete" />
+              <MenuItem mnemonicParsing="false" styleClass="menu-item" text="Delete" />
             </items>
           </Menu>
           <Menu mnemonicParsing="false" text="Help">
             <items>
-              <MenuItem mnemonicParsing="false" text="About" onAction="#handleAbout"/>
+              <MenuItem mnemonicParsing="false" onAction="#handleAbout" styleClass="menu-item" text="About" />
             </items>
           </Menu>
         </menus>

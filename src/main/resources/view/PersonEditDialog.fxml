@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<AnchorPane prefHeight="250.0" prefWidth="400.0" stylesheets="@../styles/light-theme.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hbvhuwe.address.view.PersonEditDialogController">
+<AnchorPane prefHeight="250.0" prefWidth="400.0" styleClass="background" stylesheets="@../styles/light-theme.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hbvhuwe.address.view.PersonEditDialogController">
    <children>
       <GridPane AnchorPane.leftAnchor="16.0" AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="16.0">
         <columnConstraints>
@@ -29,32 +29,32 @@
             <Insets right="8.0" top="8.0" />
          </opaqueInsets>
          <children>
-            <TextField fx:id="firstNameField" GridPane.columnIndex="1">
+            <TextField fx:id="firstNameField" styleClass="line" GridPane.columnIndex="1">
                <GridPane.margin>
                   <Insets bottom="4.0" left="8.0" right="8.0" top="4.0" />
                </GridPane.margin>
             </TextField>
-            <TextField fx:id="lastNameField" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <TextField fx:id="lastNameField" styleClass="line" GridPane.columnIndex="1" GridPane.rowIndex="1">
                <GridPane.margin>
                   <Insets bottom="4.0" left="8.0" right="8.0" top="4.0" />
                </GridPane.margin>
             </TextField>
-            <TextField fx:id="streetField" GridPane.columnIndex="1" GridPane.rowIndex="2">
+            <TextField fx:id="streetField" styleClass="line" GridPane.columnIndex="1" GridPane.rowIndex="2">
                <GridPane.margin>
                   <Insets bottom="4.0" left="8.0" right="8.0" top="4.0" />
                </GridPane.margin>
             </TextField>
-            <TextField fx:id="cityField" GridPane.columnIndex="1" GridPane.rowIndex="3">
+            <TextField fx:id="cityField" styleClass="line" GridPane.columnIndex="1" GridPane.rowIndex="3">
                <GridPane.margin>
                   <Insets bottom="4.0" left="8.0" right="8.0" top="4.0" />
                </GridPane.margin>
             </TextField>
-            <TextField fx:id="postalCodeField" GridPane.columnIndex="1" GridPane.rowIndex="4">
+            <TextField fx:id="postalCodeField" styleClass="line" GridPane.columnIndex="1" GridPane.rowIndex="4">
                <GridPane.margin>
                   <Insets bottom="4.0" left="8.0" right="8.0" top="4.0" />
                </GridPane.margin>
             </TextField>
-            <TextField fx:id="birthdayField" GridPane.columnIndex="1" GridPane.rowIndex="5">
+            <TextField fx:id="birthdayField" styleClass="line" GridPane.columnIndex="1" GridPane.rowIndex="5">
                <GridPane.margin>
                   <Insets bottom="4.0" left="8.0" right="8.0" top="4.0" />
                </GridPane.margin>
