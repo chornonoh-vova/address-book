@@ -1,7 +1,6 @@
 package com.hbvhuwe.address;
 
 import com.hbvhuwe.address.util.DateUtil;
-import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -9,6 +8,8 @@ import org.junit.runners.Parameterized;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Optional;
+
+import static org.junit.Assert.*;
 
 @RunWith(Parameterized.class)
 public class TestDateUtil {
@@ -32,9 +33,9 @@ public class TestDateUtil {
 
   @Test
   public void testDates() {
-    Assert.assertEquals(DateUtil.parse(incorrect), Optional.empty());
-    Assert.assertTrue(DateUtil.parse(correct).isPresent());
-    Assert.assertFalse(DateUtil.validDate(incorrect));
-    Assert.assertTrue(DateUtil.validDate(correct));
+    assertEquals(DateUtil.parse(incorrect), Optional.empty());
+    assertTrue(DateUtil.parse(correct).isPresent());
+    assertFalse(DateUtil.validDate(incorrect));
+    assertTrue(DateUtil.validDate(correct));
   }
 }
