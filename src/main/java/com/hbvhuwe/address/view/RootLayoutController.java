@@ -64,7 +64,7 @@ public class RootLayoutController {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setTitle("AddressBook");
         alert.setHeaderText("About");
-        alert.setContentText("Author: Chernonog Vladimir\n Website: https://github.com/hbvhuwe");
+        alert.setContentText("Author: Chernonog Vladimir\nWebsite: https://github.com/hbvhuwe");
         alert.showAndWait();
     }
 

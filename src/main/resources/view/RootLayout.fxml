@@ -11,21 +11,21 @@
         <menus>
           <Menu mnemonicParsing="false" text="File">
             <items>
-              <MenuItem mnemonicParsing="false" onAction="#handleNew" styleClass="menu-item" text="New" />
-              <MenuItem mnemonicParsing="false" onAction="#handleOpen" styleClass="menu-item" text="Open..." />
-              <MenuItem mnemonicParsing="false" onAction="#handleSave" styleClass="menu-item" text="Save" />
-              <MenuItem mnemonicParsing="false" onAction="#handleSaveAs" styleClass="menu-item" text="Save As.." />
-              <MenuItem mnemonicParsing="false" onAction="#handleExit" styleClass="menu-item" text="Exit" />
+              <MenuItem mnemonicParsing="false" onAction="#handleNew" text="New" />
+              <MenuItem mnemonicParsing="false" onAction="#handleOpen" text="Open..." />
+              <MenuItem mnemonicParsing="false" onAction="#handleSave" text="Save" />
+              <MenuItem mnemonicParsing="false" onAction="#handleSaveAs" text="Save As.." />
+              <MenuItem mnemonicParsing="false" onAction="#handleExit" text="Exit" />
             </items>
           </Menu>
           <Menu mnemonicParsing="false" text="Edit">
             <items>
-              <MenuItem mnemonicParsing="false" styleClass="menu-item" text="Delete" />
+              <MenuItem mnemonicParsing="false" text="Delete" />
             </items>
           </Menu>
           <Menu mnemonicParsing="false" text="Help">
             <items>
-              <MenuItem mnemonicParsing="false" onAction="#handleAbout" styleClass="menu-item" text="About" />
+              <MenuItem mnemonicParsing="false" onAction="#handleAbout" text="About" />
             </items>
           </Menu>
         </menus>

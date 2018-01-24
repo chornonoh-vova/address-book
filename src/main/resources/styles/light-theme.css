@@ -2,6 +2,39 @@
     -fx-background-color: white;
 }
 
+.label{
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: black;
+    -fx-opacity: 0.75;
+}
+
+.label-bright{
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: black;
+    -fx-opacity: 1;
+}
+
+.menu-bar{
+    -fx-background-color: white;
+}
+
+.context-menu{
+    -fx-background-color: white;
+}
+
+.menu-bar .label{
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: black;
+    -fx-opacity: 1;
+}
+
+.menu .left-container{
+    -fx-background-color: white;
+}
+
 /*******************************************************************************
  *                                                                             *
  * Push Button                                                                 *
@@ -40,32 +73,4 @@
 
 .button:hover, .button:default:hover{
     -fx-background-color: #219297;
-}
-.menu-item {
-    -fx-background-color: transparent;
-    -fx-padding: 0.666666em 0.999999em 0.4999995em 0.999999em;   /*6 12 6 12 */
-}
-
-.menu-item .label {
-    -fx-padding: 0em 0.5em 0em 0em;
-    -fx-text-fill: #212121;
-    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
-    -fx-font-size: 11pt;
-}
-
-
-.menu-item:focused {
-     -fx-background: -fx-accent;
-     -fx-background-color: #dedede;
-}
-
-.menu-item:pressed
-{
-    -fx-background-color: #212121;
-    -fx-text-fill: white;
-}
-
-.menu-item:pressed .label
-{
-    -fx-text-fill: white;
 }
