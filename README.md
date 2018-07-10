@@ -1,4 +1,4 @@
-# address-book
+# address-book [![Build Status](https://travis-ci.org/hbvhuwe/address-book.svg?branch=master)](https://travis-ci.org/hbvhuwe/address-book)
 Simple JavaFX address book application
 
 Main window with loaded file|Edit person info window
